@@ -1,11 +1,14 @@
 import moment from 'moment';
+// import {Filter} from 'bad-words';
+const Filter = require('bad-words');
 
-export default function Create_Post({sharedState, setSharedState}){
+export default function Create_Post({setSharedState}){
     const createPost = async event => {
         event.preventDefault();
+        const filter = new Filter();
         const post_details = {
-            title: event.target.input_post_title.value,
-            content: event.target.input_post_content.value,
+            title: filter.clean(event.target.input_post_title.value),
+            content: filter.clean(event.target.input_post_content.value),
             created_at: moment().format('YYYY-MM-DD h:mm:ss'),
             updated_at: moment().format('YYYY-MM-DD h:mm:ss')
         }

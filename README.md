@@ -1,6 +1,14 @@
-# CRUD Blog/Post App using NextJs and Serverless-MySQL
+# CRUD Blog/Post App using NextJS and Serverless-MySQL + TailwindCSS
 
-First, run the development server:
+First,
+
+```bash
+npm install
+```
+
+Use included SQL file to create database (make your own and edit the code).
+
+Then, Run the development server:
 
 ```bash
 npm run dev
@@ -10,16 +18,18 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-//DONE:
+</br>
 
--> Fetch Posts from database
+* >DONE:
 
--> Create Posts
+* [x] Fetch Posts from database
 
--> Delete Posts
+* [x] Create Posts
 
+* [x] Delete Posts
 
-//TODO
+* >TODO
 
--> Edit Posts
-# next_blog_example_crud 
+* [ ] Edit Posts
+
+## next_blog_example_crud
