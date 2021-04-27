@@ -21,14 +21,14 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 </br>
 
 * >DONE:
-* [x] Create Posts
+* [x] (C)reate Posts
 
-* [x] Read and Fetch Posts from database
+* [x] (R)ead and Fetch Posts from database
 
-* [x] Delete Posts
+* [x] (D)elete Posts
 
 * >TODO
 
-* [ ] Update/Edit Posts
+* [ ] (U)pdate/Edit Posts
 
 ## next_blog_example_crud
